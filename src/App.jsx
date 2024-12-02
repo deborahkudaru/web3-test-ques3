@@ -1,7 +1,12 @@
+import { useState } from "react";
+import websocket
+
 function App(){
-  return <>
-  <div>hello</div>
-  </>
+
+  const [messages, setMessages] = useState("")
+  return <div>
+
+  </div>
 }
 
 export default App;
